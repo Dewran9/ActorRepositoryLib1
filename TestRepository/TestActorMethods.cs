@@ -4,7 +4,7 @@ using ActorRepositoryLib1.Repositories;
 namespace TestRepository
 {
     [TestClass]
-    public sealed class TestActorMethods
+    public class TestActorMethods
     {
         private ActorsRepository _repository;
 
@@ -16,7 +16,7 @@ namespace TestRepository
         }
 
         [TestMethod]
-        public void GetAllActors_ReturnsNull()
+        public void GetAllActors_ReturnsEmpty()
         {
 
             // Act
